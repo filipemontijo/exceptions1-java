@@ -55,13 +55,11 @@ public class Program {
         
     }
     
-    catch(RuntimeException error)
-    {
-        
-        System.out.println("Unexpected error");
-    }
+     catch(RuntimeException error){
+        System.out.println("Unexpected Error ");
       sc.close();
 
+    }
     }    
 }       
 
